@@ -20,6 +20,7 @@ export class Tab2Page {
         latitude: position.coords.latitude,
         longitude: position.coords.longitude,
       };
+      // TODO: after location fetch route to schedule pages
       console.log('This is the current location:', this.location);
     } catch (error) {
       console.error('Error getting location:', error);
