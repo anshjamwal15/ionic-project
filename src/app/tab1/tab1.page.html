@@ -1,17 +1,23 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" class="main-container">
+  <div class="globe">Let's get started...</div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="main-text-box">
+    <div class="main-text">
+      Please choose wheather you need a volunteer to pick up your bottles/cans or if you're a volunteer offering help.
+    </div>
+  </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div class="button-section">
+    <div class="buttons">
+      <ion-button expand="block" class="rounded-btn">I need help</ion-button>
+    </div>
+    <div class="buttons">
+      <ion-button expand="block" class="rounded-btn">I'm a volunteer</ion-button>
+    </div>
+  </div>
+
+  <div class="img-section">
+    <img class="img-sec" src="assets/start_screen.png" />
+    <div class="back">Back</div>
+  </div>
 </ion-content>
