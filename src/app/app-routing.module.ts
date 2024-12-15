@@ -9,6 +9,18 @@ const routes: Routes = [
   {
     path: 'image-upload',
     loadChildren: () => import('./tab4/tab4.module').then(m => m.Tab4PageModule)
+  },
+  {
+    path: 'thank-you',
+    loadChildren: () => import('./thank-you/thank-you.module').then( m => m.ThankYouPageModule)
+  },
+  {
+    path: 'schedule',
+    loadChildren: () => import('./schedule/schedule.module').then( m => m.SchedulePageModule)
+  },
+  {
+    path: 'alloted-list',
+    loadChildren: () => import('./alloted-list/alloted-list.module').then( m => m.AllotedListPageModule)
   }
 ];
 @NgModule({

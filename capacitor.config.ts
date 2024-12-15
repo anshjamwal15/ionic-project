@@ -4,14 +4,13 @@ const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
   appName: 'project_app',
   webDir: 'www',
+  bundledWebRuntime: false,
   plugins: {
     SplashScreen: {
       launchShowDuration: 3000,
-      backgroundColor: "#077575",
-      splashFullScreen: false,
-      splashImmersive: true,
-    }
-  }
+      launchAutoHide: true,
+      backgroundColor: '#ffffff',
+    },
+  },
 };
-
 export default config;

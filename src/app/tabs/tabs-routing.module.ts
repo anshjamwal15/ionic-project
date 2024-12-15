@@ -24,6 +24,14 @@ const routes: Routes = [
         loadChildren: () => import('../tab4/tab4.module').then( m => m.Tab4PageModule)
       },
       {
+        path: 'schedule',
+        loadChildren: () => import('../schedule/schedule.module').then( m => m.SchedulePageModule)
+      },
+      {
+        path: 'alloted-list',
+        loadChildren: () => import('../alloted-list/alloted-list.module').then( m => m.AllotedListPageModule)
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'

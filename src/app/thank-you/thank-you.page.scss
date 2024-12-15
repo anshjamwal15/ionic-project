@@ -33,37 +33,16 @@ $text-color: #077575;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-color: #077575;
-    border-style: solid;
-    border-width: 2px;
-    margin-left: 30%;
-    margin-right: 30%;
-    height: auto;
 }
 
 .sec-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // justify-content: center;
-    font-weight: 500;
-    width: 80%;
-    font-size: 1rem;
+    font-weight: bold;
+    width: 60%;
+    font-size: 1.5rem;
     text-align: center;
-    padding: 10px;
+    color: #707070;
 }
 
-.img-icon {
-    font-size: 50px;
-    color: #077575;
-    padding: 5px;
-}
-
-.saved-icon {
-    font-size: 50px;
-    color: green;
-    padding: 5px;
-}
 
 hr {
     border: none;
@@ -95,6 +74,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-top: 10%;
 }
 
 .buttons {
@@ -123,6 +103,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-top: 5%;
 }
 
 .img-sec {

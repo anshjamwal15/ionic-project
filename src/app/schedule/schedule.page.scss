@@ -12,7 +12,6 @@ $text-color: #077575;
     font-size: 1.5rem;
     text-align: center;
     padding-top: 10%;
-    padding-bottom: 10%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
@@ -20,50 +19,55 @@ $text-color: #077575;
 
 .lets {
     color: $text-color;
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: 2rem;
     padding-top: 10%;
-    padding-bottom: 10%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lets-text {
+    width: 50%;
 }
 
 .sec-text-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-color: #077575;
-    border-style: solid;
-    border-width: 2px;
-    margin-left: 30%;
-    margin-right: 30%;
-    height: auto;
+    padding-top: 5%;
+    height: 50;
 }
 
 .sec-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // justify-content: center;
-    font-weight: 500;
+    text-align: start;
     width: 80%;
-    font-size: 1rem;
-    text-align: center;
-    padding: 10px;
 }
 
-.img-icon {
-    font-size: 50px;
-    color: #077575;
-    padding: 5px;
+.sec-text-box .sec-text .custom-input {
+    border-radius: 20px;
+    border: 1.5px solid #077575;
+    transition: none;
+    font-weight: 300;
+    font-size: 14px;
+    --highlight-color-focused: rgba(255, 255, 255, 0);
+    --highlight-color-invalid: rgba(255, 255, 255, 0);
+    --highlight-color-valid: rgba(255, 255, 255, 0);
 }
 
-.saved-icon {
-    font-size: 50px;
-    color: green;
-    padding: 5px;
+.sec-text-box .sec-text .custom-input::placeholder {
+    font-weight: lighter;
+    font-size: 14px;
 }
+
+.sec-text-box .sec-text .custom-input {
+    --padding-start: 10px;
+    --padding-end: 10px;
+}
+
+
 
 hr {
     border: none;
@@ -95,6 +99,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-top: 10%;
 }
 
 .buttons {
@@ -123,6 +128,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-top: 5%;
 }
 
 .img-sec {
